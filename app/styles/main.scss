@@ -54,13 +54,17 @@ h2 {
       line-height: 25px;
       font-size: 14px;
     }
-    xmp {
+    span {
       height: 220px;
       overflow-x: auto;
       overflow-y: auto;
       border-left: 3px solid #B5B5B5;
       padding: 10px;
       background: rgba(255, 255, 255, 1);
+      display: block;
+      font-family: monospace;
+      white-space: pre;
+      margin: 1em 0px;
     }
 }   
 

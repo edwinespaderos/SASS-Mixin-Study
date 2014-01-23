@@ -38,7 +38,7 @@
           </div>
           <div class="info">
             <p>The Circle-Crop mixin will take any desired image and crop it into a circle, perfect for those new circle avatars everyone seems to love these days. How does it work you ask? Choose your favorite picture. Inside HTML make an img tag and nest it within a div tag with a class name. In CSS call the class name and include the mixin circle-crop [@include circle-crop] Now you’re the proud owner of a new circle cropped image. See below for nerd notes.</p>
-            <xmp>
+            <span>
               @mixin circle-crop ($width, $img-width, $margin-top, $margin-left) {
               margin: 20px auto;
               width: $width;
@@ -53,7 +53,7 @@
               .body {
                 @include circle-crop (100px, 600px, -30px, -70px);
               }
-            </xmp>
+            </span>
           </div>
           <div>
             <h2>Color-Wash Mixin</h2>
@@ -64,7 +64,7 @@
           </div>
           <div class="info">
             <p>The Color-Wash mixin will take any desired image and put a color-wash of your choosing over that image when hovered over. How does it work you ask? Choose your favorite picture and color. Inside HTML use an img tag and a div tag then nest those  within a div with a class name. In the CSS call the class name and include the mixin color-wash  [@include color-wash] Now you’re the proud owner of a new image with a color wash (Oh and, I threw in my circle-crop mixin just for fun). See below for nerd notes.</p>
-            <xmp>
+            <span>
               @mixin color-wash ($img-width, $img-height, $color) {
                 margin: 50px auto;
                 width: $pic-width;
@@ -92,7 +92,7 @@
                 @include color-wash (180px, 180px, #662134);
                 @include circle-crop (100px, 180px, 0, -2px);
               }
-            </xmp>
+            </span>
           </div>
           <div>
             <h2>Hover-Over-Text Mixin</h2>
@@ -104,7 +104,7 @@
           <div class="info">
             <p>The Hover-Over-Text mixin will take any desired image and put text with the color of your choosing over that image when hovered over. How does it work you ask? Choose your favorite picture and color. Inside HTML use an img tag and a div tag then nest those  within a div with a class name. In the CSS call the class name and include the mixin hover-over-text  [@hover-over-text] Now you’re the proud owner of a new image with text that appears when hovered over(oh and, I threw in my circle-crop mixin just for fun..one more time.). See below for nerd notes. 
             </p>
-           <xmp>
+           <span>
               @mixin hover-over-text ($width, $img-width, $text-color) {
                 margin: 50px auto;
                 width: $width;
@@ -140,7 +140,7 @@
               @include circle-crop (100px, 170px, -8px, -15px)
 
               }
-            </xmp>
+            </span>
           </div>    
         </div>  
 
